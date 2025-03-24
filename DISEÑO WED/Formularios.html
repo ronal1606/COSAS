@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="registrardatos.php" method="post">
+      <input
+        type="text"
+        name="nombre"
+        size="30"
+        placeholder="ingrese su nombre"
+      />
+      <br />
+      <input
+        type="text"
+        name="apellido"
+        size="30"
+        placeholder="ingrese su apeliido"
+      />
+      <br />
+      <input type="password" placeholder="ingrese su contraseña" />
+      <br />
+      <br />
+      <textarea name="comentarios" rows="4" cols="45"></textarea>
+      <br />
+      <input type="checkbox" name="java" value="1" />Acepa terminos y
+      condiciones<br />
+      <input type="checkbox" name="java" value="2" />Java<br />
+      <input type="checkbox" name="java" value="3" />C++<br />
+      <input type="radio" name="estudios" value="4" />Primario<br />
+      <br />
+      <input type="reset" value="borrar" />
+      <input type="submit" value="enviar" />
+    </form>
+    <br />
+
+    <select name="nombre">
+      <option value="1">Opción 1</option>
+      <option value="2">Opción 1</option>
+      <option value="3">Opción 3</option>
+    </select>
+    <br />
+    <br />
+    <select name="colores[]" size="10" multiple>
+      <option value="1">Rojo</option>
+      <option value="2">amarillo</option>
+      <option value="3">azul</option>
+      <option value="4">Violeta</option>
+    </select>
+    <br />
+    <br />
+    <select name="articulo">
+      <optgroup label="GRUPO 1">
+        <option value="1">opcion 1</option>
+        <option value="2">opcion 2</option>
+        <option value="3">opcion 3</option>
+      </optgroup>
+      <optgroup label="GRUPO 2">
+        <option value="7">opcion 4</option>
+        <option value="2">opcion 5</option>
+        <option value="3">opcion 6</option>
+      </optgroup>
+    </select>
+
+    <br />
+    <br />
+    Ingrese su nombre:
+    <input type="text" name="nombre" size="30" /><br />
+    Seleccione la foto:
+    <input type="file" name="foto" />
+    <br />
+    <input type="submit" value="Enviar" />
+  </body>
+  <br />
+  <br />
+  <form action="registrardatos.php" method="post">
+    <fieldset>
+      <legend>Titulo del Grupo 1</legend>
+      Nombre del campo 1
+      <input type="text" name="campo1" size="30"><br>
+      Nombre del campo 2
+      <input type="text" name="campo2" size="8"><br>
+      Nombre del campo 3:
+      <input type="text" name="campo3" size="12"><br>
+  
+    </fieldset>
+    <fieldset>
+      Nombre del campo 4
+      <input type="text" name="campo4" size="30"><br>
+      Nombre del campo 5
+      <input type="text" name="campo5" size="8"><br>
+      Nombre del campo 6:
+      <input type="text" name="campo6" size="12"><br>
+    </fieldset>
+    <input type="submit" value="Enviar">
+  </form>
+</html>

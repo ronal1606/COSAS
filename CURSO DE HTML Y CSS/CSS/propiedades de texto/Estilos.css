@@ -1,0 +1,21 @@
+p {
+  color: rgb(72, 0, 255);
+  font-family: sans-serif;           /* para cambiar la letar*/
+  font-size: 13px;              /*para cambiar el tamañano de la letra*/
+  font-weight: bold;               /*para cambiar el grosor de la letra*/
+  font-style: italic;              /*para cambiar el la inclinacion de la letra*/
+  text-align: center;           /*para centar el texto*/
+  line-height: normal;             /*espacio de lineas*/
+  letter-spacing: normal;          /*espacio entre las letras*/
+}
+
+span {
+  text-decoration: underline; /*subrayar el texto*/
+  color: black;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  font-weight: bold;
+}

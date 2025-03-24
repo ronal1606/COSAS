@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bff5bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    margin: auto;
+
+}
+
+.login-container {
+    background-color: rgb(137, 249, 197);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    
+    
+}
+
+.login-container img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-right: 0px;
+    margin-left: 1px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.social-login .facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.social-login .google {
+    background-color: #db4437;
+    color: white;
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.pruebacaja{
+    background-color: rgb(237, 240, 239);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    height: 100%;
+    
+}

@@ -1,0 +1,20 @@
+.formulario{
+  background: red;
+  padding: 10px;
+}
+
+.formulario_input{
+  padding: 10px;
+  background: rgb(169, 169, 202);
+  color: brown;
+  margin: 10px;
+
+}
+
+.box{
+  background: rgb(66, 66, 147);
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+
+}
